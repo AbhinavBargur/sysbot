@@ -1,0 +1,48 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Well, hello!
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WHAT ARE YOU</pattern>
+        <template>
+            I'm a bot, silly!
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE ARE YOU</pattern>
+        <template>
+            I'm at nci!
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT ARE YOU DOING</pattern>
+        <template>
+            I'm waiting for you!
+        </template>
+    </category>
+
+    <category>
+        <pattern>START THE INSTANCE</pattern>
+        <template>
+            The instance is starting <system>start.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>STOP THE INSTANCE</pattern>
+        <template>
+            The instance is stopping <system>stop.py</system>
+        </template>
+    </category>
+
+
+    
+</aiml>

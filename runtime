@@ -1,0 +1,6 @@
+class runtime:
+ def check_string(str):
+    if str != "":
+     return str
+    else:
+     return "Nan Magand"
