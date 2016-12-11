@@ -1,7 +1,7 @@
 #/usr/bin/python
 import boto.ec2
 # specify AWS keys
-auth = {"aws_access_key_id": "AKIAJYL3V74CIAAOXWEQ", "aws_secret_access_key": "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"}
+auth = {"aws_access_key_id": "AKIAJYL3V74CIAAOXWEQ", "aws_secret_access_key": "A5XWuEQGxRCKRexpRJewgp5ZZ7Zpx"}
  
 #client = boto.client('ec2')
 my_list=boto.ec2.regions()
